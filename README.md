@@ -71,7 +71,7 @@ This portfolio can easily be hosted on GitHub Pages — just enable Pages in rep
 
 🔗 GitHub: https://github.com/GuruLohithaNarala
 
-🔗 Live Website: 
+🔗 Live Website: https://gurulohithanarala.github.io/portfolio/
 
 ⭐ Feedback & Contributions
 Thanks for checking out my portfolio! If you have suggestions or improvements, feel free to open an issue or PR.
