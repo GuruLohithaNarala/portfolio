@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body style="background-color: black;">
+
+    <nav style="background-color: #121c84;height: 50px;padding: 5px;">
+        <ul>
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="Experince.html">Experince</a></li>
+            <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="achievements.html">Achievements</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section style="padding: px 20px; text-align: center; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; background: linear-gradient(135deg, #0f0f0f, #121212); color: #fff;">
+
+      
+
+        <h1 style="font-size: 3rem; color: #00e5ff; margin-bottom: 20px;">
+            Hi, I'm GURU LOHITHA NARALA 👋
+        </h1>
+
+        <h2 style="font-size: 1.8rem; color: #ddd; margin-bottom: 30px;">
+            AI & ML Enthusiast | Front-End Developer
+        </h2>
+
+        <p style="font-size: 1.1rem; color: #ccc; max-width: 600px; line-height: 1.8; margin-bottom: 40px;">
+            Passionate about combining AI and modern web development to build smart, responsive, and user-friendly applications. Continuously exploring new tools and trends to improve skills and create impactful digital experiences.
+        </p>
+
+       
+
+    </section>
+
+    <!-- Hover Animation -->
+    <style>
+        a i {
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+        a:hover i {
+            transform: scale(1.2);
+            color: #ffbf35;
+        }
+    </style>
+
+    <!-- Chatbot Button -->
+    <button id="chatbot-btn">Chat with Me</button>
+
+    <!-- Chatbot Container -->
+    <div id="chatbot-container">
+        <div id="chatbot-header">
+            <span>Chatbot</span>
+            <button id="close-chatbot">&times;</button>
+        </div>
+        <div id="chatbot-messages"></div>
+        <input type="text" id="chatbot-input" placeholder="Type a message...">
+        <button id="send-btn">Send</button>
+    </div>
+
+    <script src="chatbot.js"></script>
+
+</body>
+</html>
